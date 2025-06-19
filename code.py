@@ -27,8 +27,7 @@ X = np.array([(0,1), (1,0)])
 
 
 #### Initial conditions #####
-situation = "Ising_nondegenerate"
-### ising_nondegen : for t = 0.4, stuck at E1, t = 1 stuck at E3 Straight up MAGIC, 
+situation = "Ising_nondegenerate" #choices are : Ising_nondegenerate, Ising_degenerate or easy (for testing puropose)
 
 t = 0.1
 num_circuits = 150
